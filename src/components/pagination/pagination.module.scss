@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+
+  gap: 5px;
+  list-style: none;
+  padding-left: 5px;
+}
+.item {
+  padding: 5px;
+  border: 1px solid blue;
+  cursor: pointer;
+  color: blue;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.active {
+  background: blue;
+  color: white;
+}
+
+.button {
+  display: block;
+  padding: 5px;
+  border: 1px solid blue;
+  cursor: pointer;
+  color: blue;
+}
